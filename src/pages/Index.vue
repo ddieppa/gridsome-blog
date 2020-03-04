@@ -180,6 +180,7 @@
                     type="text"
                     name="name"
                     id="name"
+                    v-model="formData.name"
                     placeholder="Jon Snow"
                     class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
                     required
@@ -195,6 +196,7 @@
                     type="email"
                     name="email"
                     id="email"
+                    v-model="formData.email"
                     placeholder="email@example.com"
                     class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
                     required
@@ -211,6 +213,7 @@
                   id="message"
                   rows="5"
                   name="message"
+                  v-model="formData.message"
                   class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4"
                   placeholder="Enter your message here."
                   required
