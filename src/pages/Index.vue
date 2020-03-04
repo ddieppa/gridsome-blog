@@ -380,7 +380,7 @@ export default {
           ...this.formData
         })
       })
-        .then(() => this.$router.push("#"))
+        .then(() => alert("success"))
         .catch(error => alert(error));
     }
   }
